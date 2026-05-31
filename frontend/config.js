@@ -1,6 +1,6 @@
 const CLIENT_CONFIG = {
   // Railway backend URL — update after Railway deploy
-  apiUrl: 'RAILWAY_URL_PLACEHOLDER',
+  apiUrl: 'https://kepram-aiagent-production.up.railway.app',
 
   tagline: 'Your 24/7 AI business assistant',
 

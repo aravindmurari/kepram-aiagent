@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kepram AI</title>
+  <title id="page-title">Kepram AI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="config.js"></script>
 </head>
 <body>
   <div id="chat-container">
@@ -17,22 +18,19 @@
       <div id="header-avatar">K</div>
       <div id="header-info">
         <div id="bot-name">Kepram AI <span id="online-badge">● Live</span></div>
-        <div id="bot-tagline">Your 24/7 AI business assistant</div>
+        <div id="bot-tagline"></div>
       </div>
     </div>
 
     <div id="chat-messages">
       <div class="message-row bot-row">
-        <div class="msg-avatar">K</div>
-        <div class="message bot-message">
-          Hi! I'm the Kepram AI assistant. I help business owners understand what AI can realistically do for them — and whether it makes financial sense right now.<br><br>
-          What kind of business are you in?
-        </div>
+        <div class="msg-avatar" id="header-avatar-msg">K</div>
+        <div class="message bot-message" id="opening-message"></div>
       </div>
     </div>
 
     <div id="chat-input-area">
-      <input type="text" id="chat-input" placeholder="Ask me anything..." autocomplete="off" autofocus>
+      <input type="text" id="chat-input" autocomplete="off" autofocus>
       <button id="send-btn" title="Send">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <line x1="22" y1="2" x2="11" y2="13"></line>
@@ -44,7 +42,13 @@
   </div>
 
   <script>
-    const API_URL = 'http://localhost:8001';
+    const API_URL = CLIENT_CONFIG.apiUrl;
+
+    document.title                                        = CLIENT_CONFIG.pageTitle;
+    document.getElementById('bot-tagline').textContent   = CLIENT_CONFIG.tagline;
+    document.getElementById('chat-input').placeholder    = CLIENT_CONFIG.inputPlaceholder;
+    document.getElementById('opening-message').innerHTML = CLIENT_CONFIG.openingMessage;
+    document.querySelectorAll('.msg-avatar').forEach(el => el.textContent = CLIENT_CONFIG.avatarLetter);
 
     const messagesEl = document.getElementById('chat-messages');
     const inputEl    = document.getElementById('chat-input');
@@ -71,7 +75,7 @@
       if (role === 'bot') {
         const avatar = document.createElement('div');
         avatar.className = 'msg-avatar';
-        avatar.textContent = 'K';
+        avatar.textContent = CLIENT_CONFIG.avatarLetter;
         row.appendChild(avatar);
       }
 
@@ -93,7 +97,7 @@
 
       const avatar = document.createElement('div');
       avatar.className = 'msg-avatar';
-      avatar.textContent = 'K';
+      avatar.textContent = CLIENT_CONFIG.avatarLetter;
 
       const dots = document.createElement('div');
       dots.className = 'typing-indicator';

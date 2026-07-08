@@ -47,12 +47,17 @@ kepram-bot/
 ├── .env.example                 ← template, safe to commit
 ├── context/
 │   └── strategy.md              ← full business + tech context
-├── knowledge/                   ← RAG source files (edit these with real data)
-│   ├── resume.md                ← Aravind's background and experience
-│   ├── services.md              ← Kepram offerings + pricing tiers
-│   ├── verticals.md             ← what AI does per industry
-│   ├── faq.md                   ← how Aravind works, timelines, engagement
+├── knowledge/                   ← RAG source files (edit these, then re-run ingest.py)
+│   ├── company.md               ← overview, two products, Why Kepram, process, guarantee, NO pricing
+│   ├── ai-front-desk.md         ← the turnkey product (voice, missed-call text-back, chat, booking)
+│   ├── ai-custom-agents.md      ← the built-to-order product (goals/knowledge/guardrails engine)
+│   ├── verticals.md             ← the 8 site industries + "any other industry"
+│   ├── faq.md                   ← common questions; quote-based, no published prices
+│   ├── resume.md                ← founder background (surface only when asked; default to "we"/"Kepram")
 │   └── caio.md                  ← AI philosophy + CAIO framework
+│   NOTE (July 2026): retrained around the TWO-product site (AI Front Desk + AI Custom Agents).
+│   No pricing anywhere on the site or in the bot — always route pricing to a quote. The old
+│   three-service framing (AI Assistants / Custom Software / AI Training) and services.md are gone.
 ├── backend/
 │   ├── requirements.txt
 │   ├── main.py                  ← FastAPI app (/chat, /health endpoints)
@@ -90,11 +95,9 @@ open ../frontend/index.html
 
 ## Key Files to Edit First
 
-Before running anything:
-1. Copy `.env.example` to `.env` and fill in all API keys
-2. Edit `knowledge/resume.md` — add full work history and specific clients
-3. Edit `knowledge/services.md` — confirm pricing and offerings
-4. Edit `knowledge/faq.md` — add your actual discovery call link (Calendly)
+1. `.env` holds the API keys (already set)
+2. To change what the bot knows: edit `knowledge/*.md`, then re-run `ingest.py` (it clears + re-ingests Pinecone). This updates the LIVE bot immediately — no redeploy needed, since the backend reads Pinecone at runtime.
+3. To change how the bot behaves/frames itself (identity, rules, pricing stance, CTA): edit `SYSTEM_PROMPT` in `backend/rag.py`, then redeploy the backend to Railway (`railway up --service kepram-aiagent`).
 
 ## Environment Variables Required
 

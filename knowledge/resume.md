@@ -1,57 +1,37 @@
-# Aravind Murari — Background and Experience
+# Kepram's Founder — Background and Credibility
+
+Use this when a visitor asks who's behind Kepram, whether the team is qualified, or about relevant domain experience. Default to speaking as "we"/"Kepram"; bring in the founder's name and background when the visitor asks directly.
 
 ## Summary
 
-Aravind Murari is a Senior Business Systems Analyst (BSA) and Product Owner with 15+ years of experience across five verticals: retail, insurance, payments, healthcare, and education. He is a certified Chief AI Officer (CAIO), an adjunct instructor at Mercer University (HCI and Web Development), and the founder of Kepram LLC, an AI consulting firm for small and mid-size businesses. Based in Atlanta, GA.
+Kepram was founded by a senior Business Systems Analyst and Product Owner with 15+ years of experience across five verticals: retail, insurance, payments, healthcare, and education. He is a certified Chief AI Officer (CAIO) and an adjunct instructor at Mercer University in Atlanta, GA (Human-Computer Interaction and Web Development). If a visitor asks his name, it's Aravind Murari.
+
+## Why this matters for a client
+
+Kepram brings both the technical depth to build AI systems and the business-analyst discipline to understand what a client actually needs before writing a line of code. It doesn't sell generic AI — it runs a proper discovery, maps specific use cases, and builds for the client's existing workflows. The 15+ years across corporate training, education, and enterprise BSA work mean complex AI concepts get translated into plain business language for any audience. The CAIO certification and university teaching give credibility with skeptical business owners who have heard too many AI promises.
 
 ## Certifications
 
-- Chief AI Officer (CAIO) certification
+- Chief AI Officer (CAIO) certification — AI strategy, governance, implementation, and organizational change
 - Billy Gene Marketing — AI marketing and advertising
-- [FILL IN: any other certifications]
 
-## Teaching and Training
+## Domain experience
 
-- **Adjunct Instructor, Mercer University, Atlanta GA** — teaches Human-Computer Interaction (HCI) and Web Development; uses AI-assisted tools to provide detailed student feedback at scale
-- **Math educator for young children** — 15+ years of experience teaching mathematics to children ages 7–15; philosophy rooted in "Do. Realize. Conceptualize." — helping children discover *why* math works, not just memorize formulas
-- **Children's Business Fairs** — organized and hosted entrepreneurship events where children build, market, and sell their own products; brings real-world business thinking into education from an early age
-- **Corporate Trainer for Business Systems Analysts** — professional experience training BSA practitioners in requirements gathering, stakeholder communication, process documentation, and systems thinking
+- **Insurance** — commercial insurance domain background (prior work at BerkleyRisk); understands policy Q&A, compliance requirements, underwriting workflows, and client communication patterns.
+- **Healthcare** — prior experience at GE Healthcare; understands HIPAA considerations, clinical workflows, and administrative communication needs.
+- **Commercial real estate** — hands-on building an AI assistant for an industrial CRE specialist with decades of experience in Greater Atlanta; understands deal structures, submarket dynamics, and NNN leasing.
+- **Education** — adjunct instructor at Mercer University; founded and operated a self-directed, project-based K–12 learning campus; ran the whole operation on an integrated CRM and business-management system.
+- **Retail / payments** — enterprise BSA and product-ownership experience across retail and payments systems.
 
-## Industry Experience
+## Teaching and training
 
-### Insurance
-- Prior work at BerkleyRisk (commercial insurance domain)
-- Understands policy Q&A, compliance requirements, underwriting workflows, and client communication patterns
-- [FILL IN: specific role and years]
+- Adjunct Instructor at Mercer University (HCI and Web Development), using AI-assisted tools to give detailed student feedback at scale.
+- Corporate trainer for Business Systems Analysts — requirements gathering, stakeholder communication, process documentation, and systems thinking.
+- 15+ years teaching mathematics to children, plus organizing entrepreneurship events for kids — a through-line of making complex things understandable.
 
-### Healthcare
-- Prior experience at GE Healthcare
-- Understands HIPAA considerations, clinical workflows, and administrative communication needs
-- [FILL IN: specific role and years]
+## Tools and skills
 
-### Retail / Payments
-- [FILL IN: specific companies, roles, key projects]
-
-### Education
-- Adjunct instructor at Mercer University (ongoing)
-- Founded and operated **Acton Academy Alpharetta** — a self-directed, project-based K-12 learning campus where children take ownership of their own education
-- Used an integrated CRM and business management system (Go High Level / GHL) to manage all campus operations, family communications, and enrollment in a consolidated, streamlined way
-- Built **madwithfun** — a digital math platform for children ages 7–15 that uses interactive experiments to help them discover mathematical concepts for themselves
-- Organized and hosted Children's Business Fairs — entrepreneurship events where children design, produce, market, and sell their own products
-
-### Commercial Real Estate
-- Currently building an AI assistant for Burke Doggett — industrial CRE specialist with 38 years of experience in Greater Atlanta
-- Understands deal structures, submarket dynamics, NNN leasing, and broker workflows
-
-## Tools and Skills
-
-- Business Systems Analysis, requirements gathering, stakeholder facilitation
+- Business systems analysis, requirements gathering, stakeholder facilitation
 - Product ownership, backlog management, Agile/Scrum
-- Corporate training — BSA practices, process documentation, systems thinking
-- AI: Claude API, GPT-4o, LlamaIndex, RAG pipelines, Pinecone, prompt engineering
-- Integrated CRM and business management systems — operations, communications, enrollment workflows (including hands-on experience with Go High Level / GHL)
-- Community: BNI member (past), referral networking
-
-## What Makes Aravind Different
-
-Aravind brings both the technical depth to build AI systems and the business analyst background to understand what a client actually needs before writing a line of code. He does not sell generic AI — he conducts a proper discovery, maps specific use cases, and builds for the client's existing workflows. His 15+ years across corporate training, education, and enterprise BSA work mean he can translate complex AI concepts into plain business language for any audience. His CAIO certification and university teaching give him credibility with skeptical business owners who have heard too many AI promises.
+- AI: Claude API, LlamaIndex, RAG pipelines, Pinecone, prompt engineering
+- Integrated CRM and business-management systems for operations, communications, and workflows

@@ -41,6 +41,20 @@ else:
     print(f"Using existing index: {INDEX_NAME}")
 
 pinecone_index = pc.Index(INDEX_NAME)
+
+# Clear existing vectors first so re-ingesting after editing knowledge files
+# fully REPLACES the knowledge base instead of appending stale duplicates.
+try:
+    existing = pinecone_index.describe_index_stats().get("total_vector_count", 0)
+    if existing:
+        print(f"Clearing {existing} existing vectors before re-ingest ...")
+        pinecone_index.delete(delete_all=True)
+    else:
+        print("Index is empty — nothing to clear.")
+except Exception as e:
+    # A fresh serverless index with no default namespace can 404 on delete_all; that's fine.
+    print(f"Skipping clear (index likely empty): {e}")
+
 vector_store = PineconeVectorStore(pinecone_index=pinecone_index)
 storage_context = StorageContext.from_defaults(vector_store=vector_store)
 

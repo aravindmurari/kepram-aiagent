@@ -1,58 +1,30 @@
-# What AI Can Do by Industry
+# Industries Kepram Works With
 
-## Commercial Real Estate
+Kepram works with small and mid-size businesses across industries where AI creates clear, near-term value. Below are the industries Kepram calls out specifically, plus the "any other industry" position. In every case the value is the same shape: handle the repetitive, high-volume layer 24/7 so the client's team focuses on the work that needs a human.
 
-Brokers spend hours answering the same questions — vacancy rates, available square footage, NNN terms, cap rates. An AI assistant handles the repetitive layer so brokers focus on deals.
+## Retail and specialty stores
+Product guidance, location routing, and off-hours coverage. The assistant helps shoppers find the right product, answers stock and store questions, points them to the nearest location, and covers the hours when no one is on the floor.
 
-- **Lead qualification**: captures prospect needs (size, submarket, timeline, buy/lease/invest) before the broker gets on a call
-- **Market intelligence**: answers questions about Atlanta industrial vacancy, supply pipeline, NNN leasing structures
-- **Listing navigation**: helps prospects narrow down options by submarket, size, and pricing
-- **24/7 availability**: responds to evening and weekend leads while the broker is showing properties
+## Commercial real estate
+Lead qualification, market intelligence, and listing navigation. Brokers spend hours answering the same questions — vacancy, available square footage, NNN terms, cap rates. The assistant captures prospect needs (size, submarket, timeline, buy/lease/invest) before the broker gets on a call, and responds to evening and weekend leads while the broker is showing properties. One extra qualified lead can pay for the agent many times over.
 
-ROI: One Atlanta industrial deal = $50,000–$200,000 commission. One extra qualified lead per quarter pays for the AI assistant 10x over.
+## Insurance agencies
+FAQ handling, policy guidance, and lead qualification. High volume of repetitive client communication — coverage limits, deductibles, exclusions, claims process — handled without agent phone tag, while prospect info is gathered before the agent engages. Automating routine questions frees hundreds of hours a year for writing new business.
 
-## Insurance Agencies
+## Legal and professional services
+Client intake, policy Q&A, and staff knowledge. The agent gathers initial information from prospective clients before a consultation, answers questions about practice areas, fees, and process, and serves as a searchable knowledge base for staff. Every legal deployment includes a clear disclaimer: the agent provides information, not legal advice, and redirects sensitive legal questions to a licensed attorney.
 
-High volume of repetitive client communication. An AI assistant handles the FAQ layer so agents spend time writing new business.
+## Healthcare practices
+Patient FAQ, appointment routing, and staff training. Small admin teams, high patient-communication volume. The agent answers questions about hours, accepted insurance, appointment prep, and post-procedure instructions, and helps patients understand which provider or service they need. It handles the administrative layer only — never clinical advice — and is designed so no protected health information (PHI) enters the system; HIPAA compliance is a design requirement, not an afterthought.
 
-- **Policy Q&A**: answers questions about coverage limits, deductibles, exclusions, claims process — no agent phone tag required
-- **Lead qualification**: gathers prospect info (business type, revenue, employees, current coverage) before the agent engages
-- **Renewal prep**: reminds clients what to prepare before renewal conversations
-- **Claims routing**: guides clients through first steps and routes to the right department
+## Schools and training
+Enrollment guidance, student support, and curriculum Q&A. Schools repeat the same information to hundreds of families. The agent answers questions about tuition, curriculum, schedule, application process, and philosophy 24/7 — available to parents at 11pm when they're researching — and helps students understand assignment requirements and learning pathways.
 
-ROI: An agency with 500 clients handles roughly 3–5 routine questions per client per year. Automating 60% frees 750–1,500 hours annually for revenue-generating work.
+## Home services and trades
+After-hours leads, emergency routing, and quote requests. For plumbers, roofers, HVAC, electricians, and similar trades, the phone is the business and missed calls are lost jobs. The agent answers after-hours and overflow calls, texts back missed calls in seconds, routes emergencies, and captures quote requests while the customer is still deciding. This is a natural fit for AI Front Desk.
 
-## Law Firms
+## Financial advisors and wealth
+Lead qualification, FAQ handling, and planning intake. The agent qualifies prospective clients, answers common questions about services and process, and gathers planning-intake information before the advisor's first meeting. As with other regulated fields, it handles information and process and redirects specific financial advice to the licensed professional.
 
-Strict confidentiality requirements, but enormous volume of repeatable interactions. The AI assistant handles process and logistics — never legal advice.
-
-- **Client intake**: gathers initial information from prospective clients before the attorney's consultation
-- **FAQ responses**: answers questions about practice areas, fees, what to bring to a first meeting, general process
-- **Employee training**: searchable knowledge base for staff covering SOPs, policies, onboarding materials
-- **Appointment routing**: helps clients find the right attorney for their matter type
-
-Note: Every legal deployment includes a clear disclaimer — the AI assistant provides information, not legal advice. Sensitive legal questions always redirect to a licensed attorney.
-
-## Healthcare Practices
-
-Small admin teams, high patient communication volume. The AI assistant handles the administrative layer — never clinical advice.
-
-- **Patient FAQ**: answers questions about hours, accepted insurance, appointment prep, post-procedure instructions
-- **Appointment routing**: helps patients understand which provider or service they need before calling
-- **Staff training**: searchable knowledge base for front desk and clinical staff on practice protocols
-
-Note: No PHI (protected health information) enters the system. HIPAA compliance is a design requirement, not an afterthought.
-
-## Education — Private Schools and Learning Centers
-
-Schools repeat the same information to hundreds of families. An AI assistant makes that information available 24/7 without adding staff.
-
-- **Enrollment Q&A**: tuition, curriculum, schedule, application process, philosophy — available to parents at 11pm when they are researching
-- **Student guidance**: helps students understand assignment requirements, project options, learning pathways
-- **Parent FAQ**: learning management system, progress reporting, communication protocols, calendar questions
-
-Example: Acton Academy campuses can use a Socratic guide that knows all Acton philosophy and project frameworks — helps guides choose challenges for individual learners without interrupting the learning environment.
-
-## Any Service Business
-
-If your business has high volumes of repetitive questions, a sales process that starts with gathering information, a team spending time on admin instead of billable work, or a need to be available to prospects outside business hours — an AI assistant likely has a strong ROI. The first step is a free 30-minute call to find out.
+## Any other industry
+The list above is not exhaustive. If a business has repetitive customer questions, a sales process that starts with gathering information, knowledge that could be automated, or a need to be available to prospects outside business hours, an AI agent likely has a strong ROI. The first step is a free, no-obligation conversation to find out.
